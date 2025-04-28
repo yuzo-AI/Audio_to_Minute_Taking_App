@@ -1,21 +1,29 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 
-# Virtual environment
-.venv/
+# Virtualenv
 venv/
-env/
+ENV/
+.env/
+.venv/
 
-# Environment variables
-.env
-
-# IDE/Editor specific files
+# VSCode
 .vscode/
-.idea/
 
-# OS specific files
+# OS
 .DS_Store
 Thumbs.db
+
+# Flask uploads
+debug.log
+uploads/
+
+# 環境変数ファイル
+.env
+.env_sample
+
+# IDE/Editor specific files
+.idea/
